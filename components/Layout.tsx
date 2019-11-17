@@ -14,7 +14,7 @@ const layoutStyle = {
   const Layout: React.SFC<ILayoutProps> = ({children}) => (
     <div style={layoutStyle}>
       <Header />
-      {/* {children} */}
+      {children}
     </div>
   );
   
